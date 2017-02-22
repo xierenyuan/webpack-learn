@@ -4,7 +4,8 @@ export default {
     dev: {
         //生成的目录
         dist: path.join(__dirname, '../.dist/'),
-        subPublic: 'static'
+        subPublic: 'static',
+        port: 8000
     },
     /**
      * 

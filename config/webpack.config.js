@@ -70,7 +70,7 @@ Object.keys(viewpages).forEach(key => {
 
     //html 配置
     let htmlPlugin = new HtmlWebpackPlugin({
-        filename: `views/${key}`,
+        filename: key,
         template: viewpages[key],
         inject: true,
         chunks: ['vendor', 'manifest', name]
